@@ -21,7 +21,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/analytics',
+      redirect: '/menu',
     },
     {
       path: '/menu',
