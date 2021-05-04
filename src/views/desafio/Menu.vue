@@ -54,7 +54,7 @@
                         <li>Generar un componente nuevo que permita editar la información “Name” y “Description” localmente y actualizar el listado en consecuencia. (Al actualizar el sitio está bien que se pierda la información) (<strong>2pts</strong>)</li>
                       </ol>
                     <div class="text-right">
-                      <d-btn variant="info">Ver Resolución</d-btn>
+                      <router-link type="button" to="/desafio3" class="btn btn-primary">Ver Resolución</router-link>
                     </div>
                   </div>
                 </d-collapse>
