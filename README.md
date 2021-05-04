@@ -1,28 +1,24 @@
 # desafio_enviame
+Entrega de resolución de desafío propuesto por Enviame.io para frontend.
 
-## Project setup
+## Requisitos
+Se debe tener instalador Node.Js como base para poder desplegar este servicio.
+
+## Configuración del proyecto
+Una vez se tenga clonado el proyecto se debe correr el siguiente comando para la instalación de componentes utilizados para el desarrollo del proyecto.
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar con Hot-reloader en versión Developer
+Para compilar y visualizar el proyecto se debe correr el comando que se muestra abajo en la carpeta del proyecto.
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar para producción
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
