@@ -11,7 +11,8 @@ npm install
 ```
 
 ### Compilar con Hot-reloader en versión Developer
-Para compilar y visualizar el proyecto se debe correr el comando que se muestra abajo en la carpeta del proyecto.
+Para compilar y visualizar el proyecto se debe correr el comando que se muestra abajo en la carpeta del proyecto. Esta opción utilizará el puerto 8080 por defecto, por lo que la
+aplicación correrá en http://localhost::8080. En caso de que esté usado el puerto 8080 utilizará el siguiente libre de forma creciente.
 ```
 npm run serve
 ```
