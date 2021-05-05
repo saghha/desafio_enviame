@@ -21,6 +21,8 @@ npm run serve
 ```
 npm run build
 ```
+### Consideraciones
+Se utilizó como base de desarrollo el UI KIT que proporciona Shards en su versión de Vue Js.
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
