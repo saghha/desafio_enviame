@@ -64,14 +64,15 @@ export default {
         this.showAlert('error', 'Debe ingresar una cota máxima')
         return
       }
-      if(this.minimo >= this.maximo) {
+      if(Number(this.minimo) >= Number(this.maximo)) {
         this.showAlert('error', 'La cota máxima debe ser mayor que la mínima')
       }
       this.calcularPrimos()
     },
     calcularPrimos: function () {
       this.numerosPrimos = []
-      for (var j = this.minimo; j <= this.maximo; j++) {
+      for (var j = Number(this.minimo); j <= Number(this.maximo); j++) {
+        console.log(this.primo(j))
         if (this.primo(j)) {
           this.numerosPrimos.push(j);
         }
@@ -90,7 +91,6 @@ export default {
     convertToString: function() {
       this.numerosPrimosString = this.numerosPrimos.toString()
       this.numerosPrimosString = this.numerosPrimosString.replaceAll(',', ' ')
-      console.log(this.numerosPrimosString)
     },
     showAlert: function (icon, title) {
       this.$swal({
